@@ -1,7 +1,13 @@
 site_name: XMT-WIKI
 nav:
     - 主页: index.md
+    - 基本信息:
+        - 基本说明: base/baseinfo.md
+        - 记住: base/remember.md
+        - 地图: base/map.md
+        
     - 关于: about.md
+    
 theme: readthedocs
 
 

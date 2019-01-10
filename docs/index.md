@@ -1,6 +1,7 @@
 # Welcome to XMT-WIKI
 
-For full documentation visit [mkdocs.org](https://mkdocs.org).
+* Based on mkdocs read-the-docs.
+* Origin `基本事件指南.docs`
 
 ## Commands
 
