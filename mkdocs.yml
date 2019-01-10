@@ -1,0 +1,7 @@
+site_name: XMT-WIKI
+nav:
+    - 主页: index.md
+    - 关于: about.md
+theme: readthedocs
+
+
