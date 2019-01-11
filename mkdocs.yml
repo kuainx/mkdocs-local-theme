@@ -5,7 +5,8 @@ nav:
         - 基本说明: base/baseinfo.md
         - 记住: base/remember.md
         - 地图: base/map.md
-        
+    - 表:
+        - 名词表: table/verb.md
     - 关于: about.md
     
 theme: readthedocs

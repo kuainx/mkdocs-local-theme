@@ -5,7 +5,7 @@
 ![map2](../img/base/map2.png)
 
 ## 学校各楼编号
-
+* 志愿者引导可能要用
 ![map3](../img/base/map3.png)
 
 ## 部分特殊教室位置

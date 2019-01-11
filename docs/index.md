@@ -1,7 +1,7 @@
 # Welcome to XMT-WIKI
 
-* Based on mkdocs read-the-docs.
-* Origin `基本事件指南.docs`
+* Built with `MkDoc`s using a theme provided by `Read the Docs`.
+* Origin `基本事件指南.docs`(ver.`20180601`)
 
 ## Commands
 
