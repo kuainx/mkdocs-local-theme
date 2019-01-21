@@ -8,6 +8,7 @@ nav:
     - 表:
         - 名词表: table/verb.md
         - 常用快捷键: table/shortcut.md
+        - 运行(Win): table/cmd.md
     - 关于: about.md
     
 theme: 
