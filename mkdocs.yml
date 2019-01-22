@@ -1,4 +1,8 @@
 site_name: XMT-WIKI
+site_description: 'XMT WIKI'
+site_author: 'KUAI'
+site_url: 'https://docs.runmun.site/'
+
 nav:
     - 主页: index.md
     - 基本信息:
@@ -12,7 +16,21 @@ nav:
     - 关于: about.md
     
 theme: 
-    name: "readthedocs"
-    custom_dir: "readthedocs-theme/"
+    name: null
+    custom_dir: "material/"
+    language: 'zh'
+    palette:
+        primary: 'blue'
+        accent: 'blue'
+    font:
+        text: 'Ubuntu'
+        code: 'Ubuntu Mono'
+    logo:
+        icon: 'cloud'
+    feature:
+        tabs: false
 
 
+markdown_extensions:
+    - admonition
+    - codehilite
