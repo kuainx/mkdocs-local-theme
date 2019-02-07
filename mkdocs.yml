@@ -13,8 +13,10 @@ nav:
         - 名词表: table/verb.md
         - 常用快捷键: table/shortcut.md
         - 运行(Win): table/cmd.md
-    - 关于: about.md
-    
+    - 关于: 
+        - 关于: about/about.md
+        - 更新日志: about/update.md
+        - 语法: about/grammar.md
 theme: 
     name: null
     custom_dir: "material/"
@@ -34,3 +36,4 @@ theme:
 markdown_extensions:
     - admonition
     - codehilite
+    - pymdownx.inlinehilite
