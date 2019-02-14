@@ -9,14 +9,20 @@ nav:
         - 基本说明: base/baseinfo.md
         - 记住: base/remember.md
         - 地图: base/map.md
+        - 活动: base/activity.md
     - 表:
         - 名词表: table/verb.md
         - 常用快捷键: table/shortcut.md
         - 运行(Win): table/cmd.md
+        - 扩展名: table/ext.md
     - 关于: 
         - 关于: about/about.md
         - 更新日志: about/update.md
         - 语法: about/grammar.md
+        - Markdown（完整版）: about/markdown.md
+    - 指南:
+        - 硬件: knowledge/hard.md
+        - 软件: knowledge/soft.md
 theme: 
     name: null
     custom_dir: "material/"
@@ -37,3 +43,5 @@ markdown_extensions:
     - admonition
     - codehilite
     - pymdownx.inlinehilite
+    - pymdownx.details
+
