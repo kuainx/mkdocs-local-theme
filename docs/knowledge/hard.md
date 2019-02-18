@@ -44,10 +44,30 @@
 * 翻转短边：上下翻页（装订线在短边）
 * 如果不确定，可以先印一张出来看看
 
+## 打印机共享
 
+!!!note "用途"
+    * 用于局域网内不同机器共享打印机
+    
+!!!abstract "重点"
+    * 先需下载好对应打印机的驱动程序
+    * 需要x86，x64驱动都安装
+    * 需要设置允许进行网络发现
 
-
-
+1. 准备：主机连接好打印机，安装好打印机驱动，测试打印机可用，确保几台电脑在同一局域网之中
+2. 推荐在主机同时安装好x86和x64的打印机驱动（其他机器会从主机获取驱动）
+3. 开始操作，主机打开设备和打印机，右键打印机，打印机属性
+    ![PrinterShare](../img/knowledge/printer_1.png "PrinterShare")
+    ![PrinterShare](../img/knowledge/printer_2.png "PrinterShare")
+4. 勾选共享这台打印机
+    ![PrinterShare](../img/knowledge/printer_3.png "PrinterShare")
+5. 点击其他驱动程序，将x86，x64均勾选，并按照后续提示进行安装驱动
+    ![PrinterShare](../img/knowledge/printer_4.png "PrinterShare")
+6. 主机和客机均要进行该设置：打开网络和共享中心，点击更改高级共享设置，选择启动网络发现，启动文件和打印机共享，允许账户连接
+    ![PrinterShare](../img/knowledge/printer_5.png "PrinterShare")
+    ![PrinterShare](../img/knowledge/printer_6.png "PrinterShare")
+7. 客机打开设备和打印机，点击添加打印机，按后续提示进行操作
+    ![PrinterShare](../img/knowledge/printer_7.png "PrinterShare")
 
 
 
