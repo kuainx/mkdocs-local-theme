@@ -26,6 +26,7 @@ nav:
     - 信息:
         - 基本信息: info/info.md
         - 硬件(设备)信息: info/device.md
+        - 软件: info/software.md
 theme: 
     name: null
     custom_dir: "material/"
