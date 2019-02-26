@@ -5,14 +5,13 @@
 
 ## Reason
 ### Why writing this wiki
-* I'm poor at describing it
+* <c>I'm poor at describing it</c>
 
 ### Why not use Word
 * It's too long and difficult to search
 * It's hard to add editable customize style
 * It's hard to add dynamic style like javascript
 * It's not free and require software to read 
-* 
 
 
 
