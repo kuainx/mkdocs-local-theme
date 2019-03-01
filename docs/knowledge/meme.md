@@ -7,7 +7,7 @@
     
 !!!tip "提示"
     * 由于某些显而易见的原因，在此不列出很多详细内容，只列出一些信息
-    * 由于相同的一些原因，有些<del>（大部分）</del>网页需要Wall Climbing，具体使用方法见GFW Climbing篇
+    * 由于相同的一些原因，有些<c><del>（全部）</del></c>网页需要Wall Climbing，具体使用方法见GFW Climbing篇
 
 ## 中国大陆网络用语列表
 * [Origin:中国大陆网络用语列表(WikiPedia_zh)](https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86%E7%BD%91%E7%BB%9C%E7%94%A8%E8%AF%AD%E5%88%97%E8%A1%A8)

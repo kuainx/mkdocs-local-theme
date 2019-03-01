@@ -1,4 +1,4 @@
-.cover,.cover a,a .cover,.cover a.new {
+.cover,.cover a,a .cover,.cover{
     background-color: #252525 !important;
     color: #252525 !important;
     text-shadow: none !important;
@@ -7,10 +7,6 @@
 
 .cover a:hover,a:hover .cover {
     color: #66CCFF !important
-}
-
-.cover .new:hover,.new:hover .cover {
-    color: #FF6666 !important
 }
 
 .cover:hover {
