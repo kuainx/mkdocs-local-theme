@@ -29,7 +29,7 @@ nav:
     - 关于: 
         - 关于: about/about.md
         - 更新日志: about/update.md
-        - 语法: about/grammar.md
+        - 语法和插件: about/grammar.md
         - Markdown（完整版）: about/markdown.md
         - 关于Mkdocs: about/mkdocs.md
 theme: 
