@@ -24,6 +24,7 @@ nav:
         - 基本信息: info/info.md
         - 硬件(设备)信息: info/device.md
         - 软件: info/software.md
+        - 微软（Microsoft）系列: info/microsoft.md
     - 编程:
         - 网页: program/web.md
     - 关于: 
@@ -57,4 +58,9 @@ markdown_extensions:
     - codehilite
     - pymdownx.inlinehilite
     - pymdownx.details
+    - pymdownx.caret
+    - pymdownx.critic
+    - pymdownx.smartsymbols
+    - pymdownx.superfences
+    - pymdownx.tilde
 

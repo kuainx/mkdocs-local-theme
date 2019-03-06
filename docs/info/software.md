@@ -81,11 +81,26 @@ ffmpeg -i ***input.mp4*** -i ***input.mp3*** -vcodec copy -acodec copy ***output
 
 ## Registry Workshop
 * 注册表编辑器，搜索算法比系统自带的好一些
+* [Origin](http://www.torchsoft.com/en/rw_information.html)
+* 微云中有
 
+## FreeRename
+* 文件重命名，如果重命名失败，查看文件是否已经打开，或是文件名是否重复
 
+!!!example "小技巧"
+    * 可以用于图片之类排序，便于今后进行批量导入等操作
+    * 排序：将某图片提前到编号14前可以重命名为14..，14.，14+以此类推，然后重命名即可
+    * 可以设置重命名诸如pic-xx和pic---xx交替进行，避免重复终止命名
 
+## M3U8批量下载器
+* 详见M3U8篇
+![M3U8Downloader](../img/info/m3u8_down.png "M3U8Downloader")
 
+## YunDownload
+* 百度云不限速下载器
 
+## ProxyeeDown
+* 百度云不限速下载器
 
 
 
