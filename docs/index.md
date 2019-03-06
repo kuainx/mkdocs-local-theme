@@ -5,7 +5,7 @@
 
 ## Reason
 ### Why writing this wiki
-* <c>I'm poor at describing it</c>
+* <c>I'm poor at describing</c>
 
 ### Why not use Word
 * It's too long and difficult to search
