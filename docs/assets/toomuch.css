@@ -16,3 +16,7 @@
 .cover:hover a {
     color: #66CCFF !important
 }
+
+code{
+    color:#ec407a !important;
+}

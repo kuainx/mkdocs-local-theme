@@ -26,7 +26,8 @@ nav:
         - 软件: info/software.md
         - 微软（Microsoft）系列: info/microsoft.md
     - 编程:
-        - 网页: program/web.md
+        - 网页编程概述: program/web.md
+        - HTML语言: program/html.md
     - 关于: 
         - 关于: about/about.md
         - 更新日志: about/update.md
