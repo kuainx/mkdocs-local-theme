@@ -152,131 +152,178 @@ ed2k://|file|SW_DVD5_Office_Professional_Plus_2016_64Bit_ChnSimp_MLF_X20-42426.I
 * ![ExpSide](../img/info/exp_side.png "ExpSide")
 * 其中有很多预置公式，可以试试看
 * 大括号的对齐（在文本前面加个&，中英文无所谓），会将大括号中的&都对到一条直线上
-* ![ExpAlign](../img/info/exp_aligne.png "ExpAlign")
+* ![ExpAlign](../img/info/exp_align.png "ExpAlign")
 * 左右大括号可以修改，右键需要点对位置（整个大括号右方都要选中）
 * ![ExpBrack](../img/info/exp_brack.png "ExpBrack")
 * 当然如果是矩阵就需要右键选中矩阵进行对齐
 
 ##### 公式一些特殊的技巧
+* ![ExpI](../img/info/exp_i.png "ExpI")
+* 先选中，创建公式，点击两次普通文本即可（更新他的初始状态）
+* 但是这样中文会斜体，方法：选中正常中文，格式刷，将英文刷进去不会又影响
+* ![ExpAdd](../img/info/exp_add.png "ExpAdd")
 
-F(x)      a     先选中，创建公式，点击两次普通文本即可（更新他的初始状态）
+#### 标题
+* 目录需要先设置标题,Word预置了一些的标题，右键修改可以查看数据，也可以进行修改
+* 但是并不推荐修改预置内容
+* ![TitleList](../img/info/title_list.png "TitleList")
+* ![TitleRev](../img/info/title_rev.png "TitleRev")
 
-但是这样中文会斜体，方法：选中正常中文，格式刷，将英文刷进去不会又影响
+##### 自定义标题
+* 我们可以自己添加标题
+* 首先，将需要做的一个标题单独一行（标题都是单行的），并调整字号、加粗、斜线、颜色等数据
+* ![TitleAdd1](../img/info/title_add1.png "TitleAdd1")
+* ![TitleAdd2](../img/info/title_add2.png "TitleAdd2")
+* ![TitleAdd3](../img/info/title_add3.png "TitleAdd3")
+* 选中内容，创建样式，当然也可以点击修改进行细节修改
+* 创建样式比较重要一点是为了目录，调整目录层级：
+* ![TitleAdd4](../img/info/title_add4.png "TitleAdd4")
+* ![TitleAdd5](../img/info/title_add5.png "TitleAdd5") 
+* 大纲级别就是目录级别，1为最高
 
-   
+##### 标题的存储和读取
+* 右下角斜箭头，管理样式-导入/导出，左边是本文的标题，右边是本地的标题
+* （本地所有文档可以读取，但是其他电脑不可读取）
+* 选中后可以左边或右边点击标题，复制到文档中
+* ![TitleManage1](../img/info/title_manage1.png "TitleManage1") 
+* ![TitleManage2](../img/info/title_manage2.png "TitleManage2") 
+* ![TitleManage3](../img/info/title_manage3.png "TitleManage3") 
 
- 
+#### 目录
+* ![Catalog1](../img/info/catalog1.png "Catalog1") 
+* 自定义目录可以修改大纲级别以及显示内容
+* ![Catalog2](../img/info/catalog2.png "Catalog2") 
+* 显示级别：最多能显示的目录级别
+* ![Catalog3](../img/info/catalog3.png "Catalog3") 
+* 选项：设置有效样式和目录级别，如果不填则不显示
+* ![Catalog4](../img/info/catalog4.png "Catalog4") 
+* 修改：修改-选中需要修改项-修改可以设置对应目录的缩进和样式（缩进推荐0,2,4,6递增）
+* ![Catalog5](../img/info/catalog5.png "Catalog5") 
+* 最不好使的一点就是目录修改后需要重新创建并且貌似没法读取之前的设置就很尴尬了
+* 目录在Word文档中Ctrl+单击即可跳转
+* 导出的PDF文档直接单击即可跳转
+* 鼠标放置于目录上，整个目录上方会显示更新目录
+* 有更新整个目录和更新页码，自行尝试（注：在WEB模式下更新，页码会全是1）
 
-标题
+#### 长横线、虚线以及特殊符号
+##### 长线
+* 打出：三个对应符号后面回车即可打出
+* 删除：在下一行开头退格到上一行即可删除（也适用于不需要却意外打出的）
+* ![Line](../img/info/line.png "Line") 
+* 特殊符号：符号后面空格即可打出
+* ![Symbol](../img/info/symbol.png "Symbol") 
 
-目录需要先设置标题,Word预置了一些的标题，右键修改可以查看数据，也可以进行修改
+#### 在侧边显示目录
+* 视图-导航窗格打钩
+* ![CatalogShow](../img/info/catalog_show.png "CatalogShow")
 
-但是并不推荐修改预置内容
+#### PowerPoint(PPT)
+##### 轻松使用-剪辑板
+* 单击右下角可打开剪辑板
+* ![CutBoard](../img/info/cutboard.png "CutBoard")
+* 剪辑板保存了复制或剪切的内容
+* 这代表了我们可以一次复制一堆然后要黏贴哪个就点哪个
+* （Ctrl +C/V一次只能一个）
 
-   
+##### 图片导出
+* 另存为并根据需要选择
+* ![SavePic](../img/info/save_pic.png "SavePic")
+* ![SavePicAll](../img/info/save_pic_all.png "SavePicAll")
 
-   
+##### 导出高清大图
+* 默认为96DPI
+* 进入注册表编辑器，找到
+* `HKEY_CURRENT_USER\Software\Microsoft\Office\xx.0\PowerPoint\Options`
+* 新建整数（DWORD值）
+* 键名：`ExportBitmapResolution`    键值：分辨率（DPI）50-307，默认96（注意选择十进制！）
 
-我们可以自己添加标题
+##### 反映时无响应
+* 没死机：点点点直到出现已停止运行，点击关闭！！不要点等待！！，立即重启
+* 死机了：强制重启吧…
 
-首先，将需要做的一个标题单独一行（标题都是单行的），并调整字号、加粗、斜线、颜色等数据
+##### PPT放映
+1.	使用扩展屏幕方法放映（Win+P）
+2.	在彩排时把背景设置成活动背景，防止跳线
+3.	Office2016，直接在屏幕左边点击超链接或放下一张
+4.	Office2012，鼠标切到扩展屏后点超链接和切下一张，可以在放映途中改内容，但是当前页面放映会回归初始状态
+5.	如果视频很大，插到PPT播放会卡成PPT，解决方案见：PPT视频外接播放
 
-选中内容，创建样式，当然也可以点击修改进行细节修改
+##### PPT视频外接播放
+1.	基于：扩展屏幕播放视频
+2.	使用超链接将视频链接到图片等
+3.	单击图片，会在扩展屏幕上播放视频
+4.	视频即将播放完成，按Win键弹出任务栏，右键视频关掉（扩展屏不会显示主屏幕的界面）
+5.	不确保一定可行，请多次尝试及调试
 
-   
+##### PPT视频卡顿
+* 暴力方案：重启电脑
+* 普通方案：清除缓存
+* 强制方案：不在ppt中播放，直接在资源管理器使用播放器进行播放
 
-   
+##### PPT模板和素材
+* <http://www.officeplus.cn/Template/Home.shtml>
+* <https://sspai.com/post/45868>
 
-   
+##### 快捷键系列操作
+* <https://sspai.com/post/45632>
 
-创建样式比较重要一点是为了目录，调整目录层级：
+#### Excel（普通操作）
+##### 一些名词
 
-   
+| 名词 | 解释 |
+| ---- | ---- |
+| 宏 | 一段VBA程序，用于进行一些批量操作，用户可以录制宏，也可以手动编写VBA程序 |
+| VBA       | Visual Basic for Applications，以VB的语法加上部分应用程序对应的对象 |
+| Alt + F11 | Office的VBA编程界面                                          |
+| 工作表    | Excel显示的表格，可以在下方进行工作表切换                    |
+| 工作簿    | 一个Excel文件就是一个工作簿，一个工作簿中可以有很多表        |
+| 单元格    | 工作表中的格子，用列号（字母）+行号（数字）表示，如CD2333    |
+| 行号      | 用数字表示，03-最大为65536，07+为1048576                     |
+| 列号      | 用字母表示，最大为XFD（16384列）                             |
 
-   
+##### 小技巧
+* Ctrl+上下左右箭头跳转到最大值处
 
-大纲级别就是目录级别，1为最高
+##### 分割文本
+* 在黏贴文本的时候，换行会自动进行换行
+* ![DivideLine](../img/info/divide_line.png "DivideLine")
+* 使用分列可以进行分割文本操作
+* ![DivideBtn](../img/info/divide_btn.png "DivideBtn")
+* 根据需要进行分列
+* ![DivideGuide1](../img/info/divide_guide1.png "DivideGuide1")
+* ![DivideGuide2](../img/info/divide_guide2.png "DivideGuide2")  
 
- 
+##### 复制工作表
+* 右键工作表名称，选中建立副本
+* ![XlsCopy](../img/info/xls_copy.png "XlsCopy")
+* ![XlsCopyPosition](../img/info/xls_copy_position.png "XlsCopyPosition")
 
-标题的存储和读取
+##### 移动工作表
+* 此处列举两种方法，可自行选择或使用其他方法
+    * 按住工作表名称不放，左右拖动
+    * 右键，移动或复制工作表（不勾选建立副本）
 
-右下角斜箭头，管理样式-导入/导出，左边是本文的标题，右边是本地的标题
+##### 删除工作表
+* 右键工作表名称-删除
+* 注：工作表删除不可恢复
 
-（本地所有文档可以读取，但是其他电脑不可读取）
+##### 重命名工作表
+* 此处列举两种方法，可自行选择或使用其他方法
+    * 双击工作表名称
+    * 右键工作表名称-重命名
 
-选中后可以左边或右边点击标题，复制到文档中
+##### 隐藏工作表
+* 普通操作：右键工作表名称-隐藏（可以右键其他工作表取消隐藏）【隐藏后数据可以读取】
+* 高端操作：`Alt + F11`打开VBA界面，选中需要修改的表格，修改`Visible`属性： `-1：显示  0：普通隐藏  2：高端隐藏`
+* ![XlsInvisible](../img/info/xls_invisible.png "XlsInvisible")
 
-   
+##### 保护工作表
+* 右键工作表名称-保护工作表-设置密码
+* 或在审阅中进行操作
+* ![XlsProtect](../img/info/xls_protect.png "XlsProtect")
 
-   
-
-   
-
- 
-
-目录
-
-   
-
-自定义目录可以修改大纲级别以及显示内容
-
-   
-
-显示级别：最多能显示的目录级别
-
-   
-
-选项：设置有效样式和目录级别，如果不填则不显示
-
-   
-
-修改：修改-选中需要修改项-修改可以设置对应目录的缩进和样式（缩进推荐0,2,4,6递增）
-
-   
-
-最不好使的一点就是目录修改后需要重新创建并且貌似没法读取之前的设置就很尴尬了
-
-目录在Word文档中Ctrl+单击即可跳转
-
-导出的PDF文档直接单击即可跳转
-
-鼠标放置于目录上，整个目录上方会显示更新目录
-
-有更新整个目录和更新页码，自行尝试（注：在WEB模式下更新，页码会全是1）
-
- 
-
-长横线、虚线以及特殊符号
-
-长线
-
-打出：三个对应符号后面回车即可打出
-
-删除：在下一行开头退格到上一行即可删除（也适用于不需要却意外打出的）
-
-\---
-
-===
-
-***
-
-特殊符号：符号后面空格即可打出
-
---> = à   (公式)-> =    
-
- 
-
-在侧边显示目录
-
-视图-导航窗格打钩
-
-   
-
-
-
-
-
+##### 公式和自动填充
+* 见`excel.xls`文件
 
 
 

@@ -25,6 +25,8 @@ nav:
         - 硬件(设备)信息: info/device.md
         - 软件: info/software.md
         - 微软（Microsoft）系列: info/microsoft.md
+    - Adobe系列:
+        - Adobe概述: adobe/adobe.md
     - 编程:
         - 网页编程概述: program/web.md
         - HTML语言: program/html.md
