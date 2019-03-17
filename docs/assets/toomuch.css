@@ -6,14 +6,17 @@
 }
 
 .cover a:hover,a:hover .cover {
+    transition: color .13s linear;
     color: #66CCFF !important
 }
 
 .cover:hover {
+    transition: color .13s linear;
     color: #FFFFFF !important
 }
 
 .cover:hover a {
+    transition: color .13s linear;
     color: #66CCFF !important
 }
 
