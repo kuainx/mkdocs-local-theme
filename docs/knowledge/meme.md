@@ -18,13 +18,40 @@
     
 !!!tip "提示"
     * 由于某些显而易见的原因，在此不列出很多详细内容，只列出一些信息
-    * 由于相同的一些原因，有些<c><del>（全部）</del></c>网页需要Wall Climbing，具体使用方法见GFW Climbing篇
+    * 由于相同的一些原因，有些<c><del>（绝大多数）</del></c>网页需要Wall Climbing，具体使用方法见GFW Climbing篇
 
 ## 中国大陆网络用语列表
 * [Origin:中国大陆网络用语列表(WikiPedia_zh)](https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86%E7%BD%91%E7%BB%9C%E7%94%A8%E8%AF%AD%E5%88%97%E8%A1%A8)
 
+## 天朝网络流行语句
+* [Origin:天朝网络流行语句(Moegirl)](https://zh.moegirl.org/Template:%E5%A4%A9%E6%9C%9D%E7%BD%91%E7%BB%9C%E6%B5%81%E8%A1%8C%E8%AF%AD%E5%8F%A5)
+
+
 ## 梗百科
 * [Origin:梗百科(BiliBili)](https://space.bilibili.com/808171/channel/detail?cid=18345)
+
+## OO从入门到精通
+* [Origin](https://zh.moegirl.org/Oo%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A)
+* 这个句式目前流行于各类编程、专业<c>或不专业</c>的软件使用教学与技术教学等书籍名称中。后来许多网上的教程类文章、帖子也使用此句式。
+* “入门”为知识或业务的初始门路。“精通”为透彻理解并能熟练掌握。使用此类名称的书籍或教程一般会<c>也应该</c>从基础入手，循序渐进地教给阅读者知识等。
+* 该句可衍生为“**oo**从**xx**到**yy**”。
+* 在互联网上使用此句多为调侃揶揄oo，而xx一般会是起步或起因，yy一般会是目标或结果。
+* 如：JAVA从入门到入坟、MySQL从删库到跑路、<c>新媒体工作部从入门到放弃</c>等
+* <c>《女装从入门到精通》</c><c>真有这本书！</>
+
+## RTFD
+* Read The F***ing Documents
+* STFW （Search The F***ing Web）
+* RTFM（Read The F***ing Manual）
+* UTFG（Use the F***ing Google）
+* LMGTFY（Let Me Google That For You）
+* GIYF (Google Is Your Friend)<c>Google Is Not Great Firewall's Friend</c>
+* cnm.buhuibaidu.me (CNM，不会百度么？)
+
+!!!warning "提示"
+    * 不是所有的伸手党都是恶意伸手党，有的伸手党是通过了自己的尝试而无法解决问题之后才寻求帮助的，所以注意分清场合再使用此句。
+
+
 
 ## 膜蛤
 
