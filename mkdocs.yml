@@ -31,6 +31,9 @@ nav:
         - 网页编程概述: program/web.md
         - HTML语言: program/html.md
         - CSS语言: program/css.md
+        - JS语言: program/js.md
+        - SQL语言: program/sql.md
+        - 正则表达式: program/regexp.md
         - 润梦专题: program/runmun.md
     - 关于: 
         - 关于: about/about.md
