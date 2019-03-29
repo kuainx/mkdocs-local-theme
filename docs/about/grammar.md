@@ -62,7 +62,7 @@ Or, if you prefer, __use two underscores ins tead__.
 >Some of these words _are emphasized also_.
 >Use two asterisks for **strong emphasis**.
 >Or, if you prefer, __use two underscores instead__.
-	
+
 
 ### 列表
 
@@ -238,17 +238,17 @@ pip install pygments
 ##### 使用
 * 语法高亮
 ````python
-``` python
+​``` python
 import tensorflow as tf
 ```
 ````
 输出结果
-``` python
+​``` python
 import tensorflow as tf
 ```
 * 单行高亮
 ````python
-``` python hl_lines="3 4"
+​``` python hl_lines="3 4"
 """ Bubble sort """
 def bubble_sort(items):
     for i in range(len(items)):
@@ -258,7 +258,7 @@ def bubble_sort(items):
 ```
 ````
 输出结果
-``` python hl_lines="3 4"
+​``` python hl_lines="3 4"
 """ Bubble sort """
 def bubble_sort(items):
     for i in range(len(items)):
@@ -353,7 +353,7 @@ The mock shebang will be treated like text here: ` #!js var test = 0; `.
       Employees.ManagerID = Manager.EmployeeID
     WHERE
       Employees.EmployeeID = '087652';
-    ```
+```
 ````
 输出结果
 
@@ -375,7 +375,7 @@ The mock shebang will be treated like text here: ` #!js var test = 0; `.
       Employees.ManagerID = Manager.EmployeeID
     WHERE
       Employees.EmployeeID = '087652';
-    ```
+```
 
 * PyMdown.Details 插件添加了对可折叠块的支持
 * 在问号后添加`+`可以让折叠块默认展开
@@ -404,6 +404,7 @@ The mock shebang will be treated like text here: ` #!js var test = 0; `.
     massa, nec semper lorem quam in massa.
 
 ##### 样式修改
+
 ----
 * Note
 * 参考使用：笔记note、参阅seeAlso
@@ -419,6 +420,7 @@ The mock shebang will be treated like text here: ` #!js var test = 0; `.
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
     nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
     massa, nec semper lorem quam in massa.
+
 ----
 * Abstract
 * 参考使用：摘要abstract、概要summary、命令行简介tldr
@@ -434,6 +436,7 @@ The mock shebang will be treated like text here: ` #!js var test = 0; `.
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
     nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
     massa, nec semper lorem quam in massa.
+
 ----
 * Info
 * 参考使用：信息info、备忘录todo
@@ -449,6 +452,7 @@ The mock shebang will be treated like text here: ` #!js var test = 0; `.
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
     nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
     massa, nec semper lorem quam in massa.
+
 ----
 * Tip
 * 参考使用：提示tip、线索hint、重点important
@@ -464,6 +468,7 @@ The mock shebang will be treated like text here: ` #!js var test = 0; `.
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
     nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
     massa, nec semper lorem quam in massa.
+
 ----
 * Success
 * 参考使用：成功success、检查check、完成done
@@ -479,6 +484,7 @@ The mock shebang will be treated like text here: ` #!js var test = 0; `.
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
     nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
     massa, nec semper lorem quam in massa.
+
 ----
 * Question
 * 参考使用：疑问question、帮助help、常见问题解答faq
@@ -494,6 +500,7 @@ The mock shebang will be treated like text here: ` #!js var test = 0; `.
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
     nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
     massa, nec semper lorem quam in massa.
+
 ----
 * Warning
 * 参考使用：警告warning、提醒caution、注意attention
@@ -509,6 +516,7 @@ The mock shebang will be treated like text here: ` #!js var test = 0; `.
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
     nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
     massa, nec semper lorem quam in massa.
+
 ----
 * Failure
 * 参考使用：失败failure、失误fail、丢失missing
@@ -524,6 +532,7 @@ The mock shebang will be treated like text here: ` #!js var test = 0; `.
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
     nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
     massa, nec semper lorem quam in massa.
+
 ----
 * Danger
 * 参考使用：危险danger、错误error
@@ -539,6 +548,7 @@ The mock shebang will be treated like text here: ` #!js var test = 0; `.
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
     nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
     massa, nec semper lorem quam in massa.
+
 ----
 * Bug
 * 参考使用：程序错误bug
@@ -554,6 +564,7 @@ The mock shebang will be treated like text here: ` #!js var test = 0; `.
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
     nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
     massa, nec semper lorem quam in massa.
+
 ----
 * Example
 * 参考使用：示例example、短消息snippet
@@ -569,6 +580,7 @@ The mock shebang will be treated like text here: ` #!js var test = 0; `.
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
     nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
     massa, nec semper lorem quam in massa.
+
 ----
 * Quote
 * 参考使用：引用quote、引证cite
@@ -584,6 +596,7 @@ The mock shebang will be treated like text here: ` #!js var test = 0; `.
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
     nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
     massa, nec semper lorem quam in massa.
+
 ----
 
 
