@@ -46,6 +46,7 @@
 | VB                  | Visual Basic                                                 |
 | VBA                 | Visual Basic for Applications，语法同VB，用作写Office的宏，常用于Excel |
 | PY                  | Python                                                       |
+| C艹                  | C++                                                       |
 | HTML                | Hyper Text Markup Language超文本标记语言，有时简写作HTM，本质没有区别 |
 | XML                 | eXtensible Markup Language 可扩展标记语言                    |
 |                     |                                                              |

@@ -459,6 +459,122 @@ AND LastName='Carter'
         | ---- | -------- | --------- | -------------- | ------- |
         | 3    | Carter   | Thomas    | Changan Street | Beijing |
 
+## PHP的SQL指令
+
+!!!tip "mysql和mysqli"
+    * 该扩展比较老，支持不佳，我们一般不用了
+
+* 通过PHP的PDO库，我们可以调用sql数据库，详细可以查php的文档，在此仅列出需要的代码及其解释
+* 相对于sql指令，执行的指令要简单的多
+
+### 登录数据库
+```
+$mysql= new PDO('mysql:host=localhost;dbname=data','SQLUSER','SQLPSW')
+```
+
+* `data`是数据库名，`SQLUSER`是数据库用户名，`SQLPSW`是数据库密码
+* 可以直接写常量，也可以写变量
+* `$mysql`是个变量，后续操作要在上面执行，你也可以起其他名字，但是注意后续也要替换
+
+* 如果数据有中文，需要先设置字符集，否则会出乱码
+```
+$mysql=new PDO('mysql:dbname=knmgcvxk;host=localhost','SQLPSW','SQLPWD',array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES 'utf8';"));
+```
+
+### 直接执行语句
+```
+$a=$mysql->query("SELECT * FROM user");
+```
+
+* `query`中间是执行的sql语句，以文本形式传参，记得引号`""`
+* `query`后需要`foreach`一下
+* 需要注意的是PDO`query`出来的数据会有两个，一个是以123..作为键名的，一个是以其本身键名作为键名的，都混在一个数组中，具体`print_r`输出以下就看得出来了
+```
+//取出一个数据在变量$res
+foreach ($a as $a) {$res=$a;}
+//取出数组在变量$res[]
+$res=array();
+foreach ($a as $key=>$value) {$res[$key]=$value;}
+```
+
+!!!warning "警告"
+    * 推荐只在`query`中使用常量sql语句
+    * 如果使用`query`拼接传参，需要十分谨慎，避免sql注入
+    * 避免方法：验证传入参数是否含有敏感词
+    * 或：传参的sql语句全部用`prepare`就完事了
+
+### 预执行语句
+```
+$dat=$mysql->prepare("SELECT * FROM `user_v3` WHERE `user`=? AND `pass`=? AND `token`=?");
+$dat->execute(array($_DAT['loguser'],$_DAT['logpass'],$_DAT['logtok']));
+```
+
+* 现将需要执行的语句写好，需要填入参数的位置用`?`代替
+* 注意英文问号，问号不要带引号
+* 填入代替完毕后的sql语句进入`prepare`
+* 预执行完毕后返回变量，对其`execute`即可，然后以`array`传入所有问号代替的参数，注意顺序正确，注意是对`$dat`执行，不需要传参请传一个空的`array()`
+* 这样就不存在sql注入的问题了，因为已经“预执行过”了，所有传入参数都直接填入“值”中
+* 注意：下一次要`prepare`，还是对着`$mysql`，所以**不能**用`$mysql=$mysql->prepare`，`$dat`只是个临时参数
+* 执行完毕后如需取出数据
+```
+$res=$dat->fetchAll();
+$res=$res[0];//只有一个数据或只需要取一个数据的话加上这句
+```
+
+## 获取相关sql指令简便方法
+* 本教程使用`Adminer`，你要用`PHPMyAdmin`也可以，不过我比较懒`Adminer`只有一个文件（再加一个样式表）
+* 先进行一次操作（包括筛选等操作，具体可自行`Adminer`功能），确定执行后可以看到有个**SQL**命令，点进去即可，可以直接复制文本，也可以点进去编辑复制
+* 复制完成后可根据自行需要修改指令
+* ![SQLSELECT](../img/program/sql_select.png "SQLSELECT")
+* ![SQLGET](../img/program/sql_get.png "SQLGET")
+
+## SQL注入
+* 所谓SQL注入，就是通过把SQL命令插入到Web表单提交或使用其他方式替代原有字符串提交给服务器，最终达到欺骗服务器执行恶意的SQL命令。
+* 防止SQL注入，我们需要注意以下几个要点：
+    * 1.永远不要信任用户的输入。对用户的输入进行校验，可以通过正则表达式，或限制长度；对单引号和 双"-"进行转换等。
+    * 2.永远不要使用动态拼装sql，可以使用参数化的sql或者直接使用存储过程进行数据查询存取。
+    * 3.永远不要使用管理员权限的数据库连接，为每个应用使用单独的权限有限的数据库连接。
+    * 4.不要把机密信息直接存放，加密或者`hash`掉密码和敏感的信息。
+    * 5.应用的异常信息应该给出尽可能少的提示，最好使用自定义的错误信息对原始错误信息进行包装
+    * 6.sql注入的检测方法一般采取辅助软件或网站平台来检测，软件一般采用sql注入检测工具jsky，网站平台就有亿思网站安全平台检测工具。`MDCSOFT SCAN`等。采用`MDCSOFT-IPS`可以有效的防御SQL注入，XSS攻击等。
+* 以上比较烦，需要详细可以自己了解，使用`prepare`就完事了
+* 基本原理就是：闭合前面已有的指令，插入指令，屏蔽后面指令
+```js
+//原语句
+"select * from `user` where `username`='".USER."' and `pwd`='".PWD."'"
+//如果用户名传入   ';select * from `user` --
+//那么执行的语句就变成了
+select * from `user` where `username`='';select * from `user` --' and `pwd`='233'
+//分开了解析
+select * from `user` where `username`=''; //查不出东西
+select * from `user`  //查所有数据
+--' and `pwd`='233'   //--屏蔽了后面内容
+//所以返回了所有的用户数据
+```
+
+## 危险操作
+* drop (删除表)：删除内容和定义，释放空间。简单来说就是**把整个表去掉**.以后要新增数据是不可能的,除非新增一个表。
+    * drop语句将删除表的结构被依赖的约束（constrain),触发器（trigger)索引（index);依赖于该表的存储过程/函数将被保留，但其状态会变为：invalid。
+    * 也可以删除数据库
+* truncate (清空表中的数据)：删除内容、释放空间但不删除定义(**保留表的数据结构**)。与drop不同的是,只是清空表数据而已。
+    * 注意:truncate 不能删除行数据,要删就要把表清空。
+* delete (删除表中的数据)：delete 语句用于**删除表中的行**。delete语句执行删除的过程是每次从表中删除一行，并且同时将该行的删除操作作为事务记录在日志中保存，以便进行进行回滚操作。
+* 执行速度，一般来说: drop> truncate > delete。
+
+* Linux中`rm -rf * `删除当前目录下所有文件
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

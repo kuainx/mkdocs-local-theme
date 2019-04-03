@@ -7,6 +7,12 @@
 !!!failure "警告"
     * [Mkdocs中文文档](https://markdown-docs-zh.readthedocs.io/zh_CN/latest/)并非最新版本，可能出现差错（严重致命错误）
 
+## 安装（Windows）
+* <https://www.python.org/downloads/windows/>安装Python（安装时勾选讲Python加入PATH）
+* <https://pip.pypa.io/en/latest/installing/>下载`get-pip.py`
+* 下载完毕后（且Python安装完毕后）可以直接打开`get-pip.py`，也可以在此处打开命令行（或PowerShell，下同）输入指令`python get-pip.py`或`start get-pip.py`
+* 安装`mkdocs`，命令行输入`pip install mkdocs`
+
 ## 局域网访问
 * `:::js mkdocs serve`命令会默认监听localhost(127.0.0.1:8000)
 * 如此在局域网就无法访问（Eg:局域网IP：192.168.1.100）

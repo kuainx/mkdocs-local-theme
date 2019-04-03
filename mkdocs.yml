@@ -32,7 +32,10 @@ nav:
         - HTML语言: program/html.md
         - CSS语言: program/css.md
         - JS语言: program/js.md
+        - JSON格式: program/json.md
+        - JQuery模块: program/jquery.md
         - SQL语言: program/sql.md
+        - htaccess文件: program/htaccess.md
         - 正则表达式: program/regexp.md
         - 润梦专题: program/runmun.md
     - 关于: 
