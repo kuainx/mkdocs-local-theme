@@ -238,17 +238,19 @@ pip install pygments
 ##### 使用
 * 语法高亮
 ````python
-​``` python
+``` python
 import tensorflow as tf
 ```
 ````
-输出结果
-​``` python
+
+* 输出结果
+``` python
 import tensorflow as tf
 ```
+
 * 单行高亮
 ````python
-​``` python hl_lines="3 4"
+``` python hl_lines="3 4"
 """ Bubble sort """
 def bubble_sort(items):
     for i in range(len(items)):
@@ -257,8 +259,9 @@ def bubble_sort(items):
                 items[j], items[j + 1] = items[j + 1], items[j]
 ```
 ````
-输出结果
-​``` python hl_lines="3 4"
+
+* 输出结果
+``` python hl_lines="3 4"
 """ Bubble sort """
 def bubble_sort(items):
     for i in range(len(items)):
@@ -275,20 +278,22 @@ def bubble_sort(items):
 `:::language mycode`
 `#!language mycode` 
 ```
+
 * 示例
 ```js
 Here is some code: `#!js function pad(v){return ('0'+v).split('').reverse().splice(0,2).reverse().join('')}`.
 
 The mock shebang will be treated like text here: ` #!js var test = 0; `.
 ```
-输出结果
 
+* 输出结果
 Here is some code: `#!js function pad(v){return ('0'+v).split('').reverse().splice(0,2).reverse().join('')}`.
 
 The mock shebang will be treated like text here: ` #!js var test = 0; `.
 
 #### Admonition
 * [Origin](https://squidfunk.github.io/mkdocs-material/extensions/admonition/)
+
 #####正常使用
 * 基本方式
 ``` markdown
@@ -297,7 +302,8 @@ The mock shebang will be treated like text here: ` #!js var test = 0; `.
     nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
     massa, nec semper lorem quam in massa.
 ```
-输出结果
+
+* 输出结果
 
 !!! note
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
@@ -311,7 +317,8 @@ The mock shebang will be treated like text here: ` #!js var test = 0; `.
     nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
     massa, nec semper lorem quam in massa.
 ```
-输出结果
+
+* 输出结果
 
 !!! note "Phasellus posuere in sem ut cursus"
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
@@ -325,7 +332,8 @@ The mock shebang will be treated like text here: ` #!js var test = 0; `.
     nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
     massa, nec semper lorem quam in massa.
 ```
-输出结果
+
+* 输出结果
 
 !!! note ""
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod

@@ -61,6 +61,9 @@
 8. 关闭<c><del>破解</del></c>补丁，打开软件，会弹出协议，点击同意即可
 9. 特别的，AME可以不须要<c><del>破解</del></c>补丁，但是还是推荐进行<c><del>破解</del></c>补丁，某些解析器需要<c><del>破解</del></c>补丁使用
 
+!!!warning "安装版本和系统版本"
+    * Adobe CC 2019需要Win10系统才能安装
+
 ## <c><del>破解</del></c>补丁
 * CC2018：Adobe.CC2018.Anticloud.r3.exe
 * CC2017-：adobe.snr.patch.v2.0-painter.exe
