@@ -39,6 +39,25 @@
 * [DOCS](http://squidfunk.github.io/mkdocs-material/)
 * [Github](https://github.com/squidfunk/mkdocs-material)
 * 使用字体：Ubuntu、Ubuntu Mono（从GoogleFont）
+* 为了方便PDF打印，在源样板的页面头部增加了目录，不需要时可删除
+``` hl_lines="4 5"
+@@ material/base.html 行 151
+<div class="md-content">
+    <article class="md-content__inner md-typeset">
+      {% include "partials/toc.html" %}
+      <hr/>
+      {% block content %}
+        {% if page.edit_url %}
+          <a href="{{ page.edit_url }}" title="{{ lang.t('edit.link.title') }}" class="md-icon md-content__icon">&#xE3C9;</a>
+        {% endif %}
+```
+
+
+
+
+
+
+
 
 
 

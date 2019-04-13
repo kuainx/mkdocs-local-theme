@@ -21,6 +21,7 @@ nav:
         - 软件: knowledge/soft.md
         - 梗: knowledge/meme.md
         - 翻墙: knowledge/wall.md
+        - 其他: knowledge/interest.md
     - 信息:
         - 基本信息: info/info.md
         - 硬件(设备)信息: info/device.md
@@ -29,6 +30,7 @@ nav:
     - Adobe系列:
         - Adobe概述: adobe/adobe.md
         - AE视频剪辑: adobe/ae.md
+        - PS图片处理: adobe/ps.md
     - 编程:
         - 网页编程概述: program/web.md
         - HTML语言: program/html.md
@@ -41,6 +43,7 @@ nav:
         - 正则表达式: program/regexp.md
         - 润梦专题: program/runmun.md
         - 浏览器: program/browser.md
+        - 服务器: program/server.md
     - 关于: 
         - 关于: about/about.md
         - 更新日志: about/update.md
