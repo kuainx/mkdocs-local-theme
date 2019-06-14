@@ -21,7 +21,8 @@ nav:
         - 软件: knowledge/soft.md
         - 梗: knowledge/meme.md
         - 翻墙: knowledge/wall.md
-        - 其他: knowledge/interest.md
+        - 其他一些有趣的事情: knowledge/interest.md
+        - 设计相关: knowledge/design.md
     - 信息:
         - 基本信息: info/info.md
         - 硬件(设备)信息: info/device.md
