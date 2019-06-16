@@ -366,7 +366,24 @@ ffmpeg -ss 开始时间（时:分:秒） -t 结束时间 -accurate_seek -i 输�
         * 则需要下载：<http://demo.example.com/gear1/prog_index.m3u8>
             ![M3U8Direct](../img/knowledge/m3u8_5.png "M3U8Direct")
         * 如果前面有http，直接下载即可
-
+4. 示例
+    * 这里以CCTV做示例，遇到视频，先去B站找，jj下载很简单，如果找不到只能去cctv下载
+    * 首先观察他视频的编码，看到.ts文件就很警觉，一般都是m3u8
+        ![M3U8Example](../img/knowledge/m3u8_example_1.png "M3U8Example")
+    * 知道了是m3u8我们就找他的源文件，搜索不到，别着急，需要刷新才能从头开始抓包
+        ![M3U8Example](../img/knowledge/m3u8_example_2.png "M3U8Example")
+    * 这里我们看到了两个m3u8文件，从命名上看，前面那个是根目录文件，后面是列表文件，我们点开看一下，发现也是符合的
+        ![M3U8Example](../img/knowledge/m3u8_example_3.png "M3U8Example")
+    * 但是这个列表文件就很不方便我们下载下来进行批量下载，怎么办呢
+        ![M3U8Example](../img/knowledge/m3u8_example_4.png "M3U8Example")
+    * 我们直接找出他的链接，丢入脚本即可（注：问号后面是参数，不看）
+        * <http://cntv.hls.cdn.myqcloud.com/asp/hls/main/0303000a/3/default/2c4f9f6144624fa782d5e665b8047549/main.m3u8?maxbr=2048>
+        * 我们肯定选择最高画质的，也就是:/asp/hls/2000/0303000a/3/default/2c4f9f6144624fa782d5e665b8047549/2000.m3u8
+        * 对链接进行拼接，直接/开头，说明只要前面的域名，拼接结果是
+        * <http://cntv.hls.cdn.myqcloud.com/asp/hls/2000/0303000a/3/default/2c4f9f6144624fa782d5e665b8047549/2000.m3u8>
+        * 我们对照1200的链接，发现链接相似，说明是对的了，就丢到批量下载器下载即可
+        * 当然正常的m3u8文件也可以直接链接丢到批量下载器进行下载
+        * 顺便可以看到cctv用的是腾讯云的cdn(cdn.myqcloud.com)
 
 ## 音频相关
 ### 音频数据
