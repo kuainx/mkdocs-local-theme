@@ -7,6 +7,7 @@ nav:
     - 主页: index.md
     - 基本信息:
         - 基本说明: base/baseinfo.md
+        - 说在前面: base/first.md
         - 记住: base/remember.md
         - 地图: base/map.md
         - 活动: base/activity.md
