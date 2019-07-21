@@ -44,6 +44,8 @@ nav:
         - htaccess文件: program/htaccess.md
         - 正则表达式: program/regexp.md
         - 润梦专题: program/runmun.md
+        - 润梦正式报名表: program/treg.md
+        - 其他库: program/elseprog.md
         - 浏览器: program/browser.md
         - 服务器: program/server.md
     - 关于: 
