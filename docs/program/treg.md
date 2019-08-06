@@ -40,7 +40,7 @@
 * bsmd的单独css（与源站不同，有修改）
 
 ### style
-```
+```css
 *{user-select: none;-webkit-user-select: none;}
 //禁止选择
 .c-align-center{text-align: center;}
@@ -60,7 +60,7 @@ input, textarea {-khtml-user-select: text!important;-moz-user-select: text!impor
 ```
 
 ### JS（初始化和文件处理部分）
-```
+```js
 var load_btn,bg,AModalText,reg,SchoolList,RegList,now = "a";
 //变量说明：加载圈，背景(窗口)，弹出模态框，卡片列表，学校列表，学校信息，当前卡片
 $(document).ready(function(){
@@ -193,7 +193,7 @@ $(document).ready(function(){
 ```
 
 ### JS（基础函数声明）
-```
+```js
 window.onload=function(){
 //页面加载完成调用函数
     document.getElementById("load_btn").style.display="none";
@@ -350,7 +350,7 @@ var load = {
 ```
 
 ### JS(RegAct)
-```
+```js
 var regAct = {
 //a,b,c等函数都是在该卡片点击下一步调用的函数，调用内容见HTML框架
     a: ()=>{
@@ -540,7 +540,7 @@ var retArr = {
 ```
 
 ### JS（COS腾讯云）
-```
+```js
 // upload
 var cos = new COS({
     getAuthorization: function (options,callback) {
@@ -605,7 +605,7 @@ var upload={
 }
 ```
 
-```
+```php
 //由于鉴权凭证计算是腾讯云官方sdk，所以就示例参数部分，后面不改
 <?php
 // 临时密钥计算样例
@@ -626,9 +626,16 @@ $config = array(
 );
 ```
 
+### 腾讯云COS的其他设置内容
+* 存储桶-基本配置-跨域访问CORS设置
+* 来源Origin：http://www.runmun.site
+* 操作 Methods：上传：PUT；下载：GET
+* Allow-Headers：*
+* 存储桶设置：上传的桶需要设置私有读写，下载桶需要设置公有读私有写
+
 ### HTML框架
 
-```
+```html
 <body style="margin:0;padding:0">
     <div style="position:absolute;z-index:-999;width:100%;height:100%;" id="bg"></div>
     //背景（为读取窗口大小设置的元素）

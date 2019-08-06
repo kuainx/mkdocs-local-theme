@@ -34,7 +34,7 @@
 
 * 使用：KMSpico
 * 实测：Win10商业版（business editions）中，激活为教育版
-* 可能是官网：<https://kmspi.co/>
+* <del><https://kmspi.co/></del>该网站下载的软件目前有毒，请使用储存的portable版本
 
 * 特例：Office2016批量授权版，在MSDN中没有
 

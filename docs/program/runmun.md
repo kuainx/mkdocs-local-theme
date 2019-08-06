@@ -219,6 +219,7 @@ var url = 'https://runmun-1251935573.cos.ap-chengdu.myqcloud.com/2018%20%E6%B6%A
 ```mysql
 @@ 数据表 msg
 ```
+
 * 按照已有数据进行修改即可，可以复制或下载一个表进行保存数据
 * 其他固定数据修改需修改js代码，如下
     ```js hl_lines="11 13"
@@ -336,7 +337,13 @@ RewriteRule ^(.*)$ freg.php [L]
 ## 正式报名表
 单开一章
 
-
+## https
+* 首先需要SSL证书，在FreeSSL:<https://freessl.cn/>申请，推荐letsEncryptV2
+* 安装ssl证书在服务器（虚机）控制面板内，如果没有，找服务商开通
+* HTTPS页面**不能**iframehttp页面，http页面**可以**iframehttps页面（安全警告详见console）
+* http走80端口，https走443端口（默认）
+* 注：安装SSL证书后，仍然可以使用http协议，需要强制定位http（https），需要使用htaccess
+* 
 
 
 

@@ -1,4 +1,7 @@
 # 名词表
+
+* 以下内容为参考，可能有不准确性、主观性和延后性
+
 | **名词**            | **含义/备注**                                                |
 | ------------------- | ------------------------------------------------------------ |
 | 艺体楼              | 体艺中心，有时特指艺体楼大礼堂                               |
@@ -15,7 +18,7 @@
 |                     |                                                              |
 | 小萌办公室          | 一般指团委，有时指信息楼202                                  |
 | 润园                | 上师大附中雅称，有时指润园杯羽毛球赛                         |
-| SSDFZ               | 上师大附中，同理SSF，SSFZ                                    |
+| SSDFZ               | 上师大附中，同理SSF，SSFZ，不知道为什么WIFI是SDFZ            |
 | 学术节              | 跟社团节差不多，改个名字                                     |
 | 模联                | 模拟联合国，有时特指润梦模联                                 |
 | SBA                 | 校园篮球赛（相传是School Basketball Association）            |
@@ -27,7 +30,7 @@
 | 校刊编辑部          | 现指生活部                                                   |
 | 销售部              | 指外联部                                                     |
 | Outlaws Of Love     | 英语听力考试前放的试音音乐  <https://music.163.com/#/song?id=16343629> |
-| 竞速考 | 一般指合格考因为很简单，半小时交卷 |
+| 竞速考              | 一般指合格考因为很简单，半小时交卷                           |
 |                     |                                                              |
 | VGA线               | 一般指长的VGA线 （两头VGA）                                  |
 | 转接头              | VGA-HDMI转接头                                               |
@@ -42,12 +45,12 @@
 | Pr                  | Adobe Premiere                                               |
 | Ai                  | Adobe illustrator 或   Artificial intelligence               |
 | Au                  | Adobe Audition                                               |
-| AME                 | Adobe Media Encoder 同理 Me   / En                           |
+| AME                 | Adobe Media Encoder 同理 En                                  |
 | Media Coder         | 音频编解码软件，与AME不同                                    |
 | VB                  | Visual Basic                                                 |
 | VBA                 | Visual Basic for Applications，语法同VB，用作写Office的宏，常用于Excel |
 | PY                  | Python                                                       |
-| C艹                  | C++                                                       |
+| C艹                 | C++                                                          |
 | HTML                | Hyper Text Markup Language超文本标记语言，有时简写作HTM，本质没有区别 |
 | XML                 | eXtensible Markup Language 可扩展标记语言                    |
 |                     |                                                              |
@@ -105,7 +108,7 @@
 | .xxx                | 扩展名/后缀名，用于标识文件类型                              |
 |                     |                                                              |
 | [xxx]               | 可空/不填（但是无论填不填，都不写[]）   如：127.0.0.1[:80][/index.html]  嵌套：127.0.0.1[/index[.php]] |
-| //xxx               | 备注，同理  ‘xxx                                             |
+| //xxx               | 备注或代码屏蔽，同理  ‘xxx                                   |
 
 
 
