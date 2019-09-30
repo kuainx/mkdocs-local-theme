@@ -64,6 +64,11 @@
 !!!warning "安装版本和系统版本"
     * Adobe CC 2019需要Win10系统才能安装
 
+## 教程
+AE：[星月兮BiliBili](https://space.bilibili.com/17638509/channel/detail?cid=2535)
+PR：[星月兮BiliBili](https://space.bilibili.com/17638509/video?keyword=pr)
+P9字幕（AE）:<https://www.bilibili.com/video/av1454185>
+
 ## <c><del>破解</del></c>补丁
 * CC2018：Adobe.CC2018.Anticloud.r3.exe
 * CC2017-：adobe.snr.patch.v2.0-painter.exe
@@ -95,7 +100,12 @@ pause
 * 将快捷键【C】从【剃刀工具】修改为【添加编辑】，按一下【C】即可切成两段
 * ![premireUse](../img/adobe/premire_use.png "premireUse")
 
-
+## 字幕制作
+* 先到处只有人声的音频文件（不推荐带bgm）
+* 使用[网易见外工作台](https://jianwai.netease.com)转写音频为文字
+* 进行校对等工作
+* 导出字幕文件（在创建项目时选择字幕）
+* 使用p9字幕导入字幕（歌词）文件，创建字幕层
    
 
    
