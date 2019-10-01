@@ -40,3 +40,28 @@
 * 关于一些需要保密的东西，包括各类成绩表格，彩排视频等，要有判断能力，什么能发什么不能发
 * <c>因为出过事，所以请注意</c>
 
+## 一些乱七八糟的网站
+* Macxin：<https://www.macxin.com/>
+* Carrot：<http://www.carrotchou.blog/>
+* 网易见外：<https://jianwai.netease.com/>
+* AriaNG：<http://ariang.mayswind.net/latest/#!/task/detail/48d18f0f4de47d23>
+* BiliBiliJJDown：<https://www.jijidown.com/>
+* 中国知网：<https://www.cnki.net/>
+* NGA论坛：<https://bbs.nga.cn/>
+* 工具箱：<https://tool.lu/>
+* LookAE：<http://www.lookae.com>
+* NewCger：<https://www.newcger.com/>
+* 萌娘百科：<https://zh.moegirl.org>
+* DoyouDo：<http://www.doyoudo.com/>
+* C4DSky：<https://c4dsky.com/>
+* 彩虹导航：<http://www.cccyun.cc/>
+* 阿里矢量图标库：<https://www.iconfont.cn/>
+* GitHub：<https://github.com/>
+* Typekit：<https://fonts.adobe.com>
+* inDraw：<http://indrawforweb.integle.com/>
+* 台风路径：<http://typhoon.zjwater.gov.cn/default.aspx>
+* EasyIcon：<https://www.easyicon.net/>
+* 维基百科：<https://zh.wikipedia.org/wiki/Wikipedia:%E9%A6%96%E9%A1%B5>
+* 便携版软件：<https://www.portablesoft.org/>
+* 微信公众号：电手、果壳
+
