@@ -7,6 +7,7 @@
 * Release file(Github pages): <https://kuainx.github.io/xmt-wiki-release/>
 
 ## Update
+* `Alpha-20191003` by KUAI
 * `Release-20191001` by KUAI
 * `Release-20190930` by KUAI
 

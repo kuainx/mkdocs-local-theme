@@ -17,9 +17,22 @@
 ![截图](../img/knowledge/screen2.png "截图")
 ![结果](../img/knowledge/screen3.png "结果")
 
+### 网页截图
+* 正式使用时拒绝QQ截图
+* 以Chrome浏览器为例
+* 推荐使用移动设备模式进行截图（可调分辨率），按钮位于控制台（F12）左上角
+
+![移动设备](../img/knowledge/browser_screen1.png "移动设备")
+
+* 页面右上角进行截图（Capture Screen/Full Screen），具体不同可自行体会，适用不同范围，每次选适合的即可
+
+![截图](../img/knowledge/browser_screen2.png "截图")
+![结果](../img/knowledge/browser_screen3.png "结果")
+![结果](../img/knowledge/browser_screen4.png "结果")
+
 ### 普通截图
 * 比尔·盖茨给你的截图键：Win附件中![Win截图](../img/knowledge/cut.png "Win截图")
-* 键盘上Print Screen（Prt Scr），整个屏幕内容将会进入剪辑板，使用画图变成文件，或直接粘贴皆可
+* 克里斯托夫·拉森·肖尔斯给你的截图键：键盘上Print Screen（Prt Scr），整个屏幕内容将会进入剪辑板，使用画图黏贴变成文件，或直接粘贴（如果可以的话）皆可
 
 ### 预览截图
 * 不追求画质，QQ截图即可，方便快捷
@@ -81,14 +94,17 @@ Windows Registry Editor Version 5.00
     ![扩展名更改](../img/knowledge/ext_change.png "扩展名更改")
 
 !!!Warning "警告"
-    虽然有时更改扩展名之后仍然可以读出源文件（正常文件），如音频文件、图片文件，但是仍然推荐根据文件格式命名
+    虽然有时更改扩展名之后仍然可以读出源文件（正常文件），如音频文件、图片文件，但是仍然推荐根据文件格式命名，因为这不是一个好习惯
+
 2.	Reg，Bat等本身就是文本的可以使用文本文档进行编辑，使用另存为-所有格式*.*，手动输入扩展名
-    ![扩展名保存](../img/knowledge/ext_save.png "扩展名保存")
+
+![扩展名保存](../img/knowledge/ext_save.png "扩展名保存")
 
 ## 32位系统剪辑音(视)频（Expired Adobe/PPT/ffmpeg）
 
 !!!success "Excellent"
     非常好，现在团委有一台64位电脑了，可以使用Au 2018剪辑音频
+
 ### Expired Adobe
 * 使用Adobe CS 可以在32位系统中运行
 

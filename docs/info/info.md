@@ -41,16 +41,31 @@
 * <c>因为出过事，所以请注意</c>
 
 ## 一些乱七八糟的网站
-* Macxin：<https://www.macxin.com/>
-* Carrot：<http://www.carrotchou.blog/>
 * 网易见外：<https://jianwai.netease.com/>
 * AriaNG：<http://ariang.mayswind.net/latest/#!/task/detail/48d18f0f4de47d23>
+* CC0图库unsplash：<https://unsplash.com/>
 * BiliBiliJJDown：<https://www.jijidown.com/>
 * 中国知网：<https://www.cnki.net/>
 * NGA论坛：<https://bbs.nga.cn/>
-* 工具箱：<https://tool.lu/>
+* tool.lu工具箱：<https://tool.lu/>
+* 开源中国工具箱：<http://tool.oschina.net/>
+* 西数：<https://www.west.cn/>
+* 七牛云：<https://sso.qiniu.com/>
+* 腾讯云：<https://cloud.tencent.com/>
+* 网易域名邮箱：<https://qiye.163.com/login/>
+* 图灵机器人：<http://www.turingapi.com/>
+* zTree插件：<http://www.treejs.cn/v3/main.php#_zTreeInfo>
+* 代码高亮格式：<http://www.planetb.ca/syntax-highlight-word>
+* 麦克CRM：<https://mikecrm.com>
+* Google商店APK下载：<https://apps.evozi.com/apk-downloader/>
+* APK镜像下载：<https://www.apkmirror.com/>
+* BootCDN：<https://www.bootcdn.cn/>
+* BootCss中文网：<https://v3.bootcss.com/>
 * LookAE：<http://www.lookae.com>
 * NewCger：<https://www.newcger.com/>
+* Macxin：<https://www.macxin.com/>
+* Carrot周：<http://www.carrotchou.blog/>
+* 老D：<https://laod.cn/>
 * 萌娘百科：<https://zh.moegirl.org>
 * DoyouDo：<http://www.doyoudo.com/>
 * C4DSky：<https://c4dsky.com/>
@@ -61,7 +76,11 @@
 * inDraw：<http://indrawforweb.integle.com/>
 * 台风路径：<http://typhoon.zjwater.gov.cn/default.aspx>
 * EasyIcon：<https://www.easyicon.net/>
+* 正则表达式30分钟入门：<https://deerchao.cn/tutorials/regex/regex.htm>
 * 维基百科：<https://zh.wikipedia.org/wiki/Wikipedia:%E9%A6%96%E9%A1%B5>
 * 便携版软件：<https://www.portablesoft.org/>
+* 少数π：<https://sspai.com/>
+* 清华开源镜像站：<https://mirror.tuna.tsinghua.edu.cn/>
+* MSDN，I tell U：<http://msdn.itellyou.cn/>
 * 微信公众号：电手、果壳
 
